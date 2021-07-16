@@ -1,0 +1,27 @@
+{
+  "name": "NLW_together",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para receber perguntas anônimas ao dono da página. Desenvolvido durante o NLW.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloGramos/NLW_together.git"
+  },
+  "keywords": [],
+  "author": "Pablo Vinícius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloGramos/NLW_together/issues"
+  },
+  "homepage": "https://github.com/PabloGramos/NLW_together#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
